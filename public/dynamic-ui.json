@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "id": 1234567,
+      "type": "banner",
+      "data": {
+        "imgSrc": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200",
+        "alt": "Great Indian Festival 2025"
+      }
+    },
+    {
+      "id": 12345678,
+      "type": "title",
+      "data": {
+        "text": "Top Deals on Electronics",
+        "subtitle": "Don't miss out on these limited-time offers"
+      }
+    },
+    {
+      "id": 12345679,
+      "type": "product-grid",
+      "data": {
+        "columns": 4,
+        "gap": "20px",
+        "products": [
+          {
+            "id": "prod-001",
+            "name": "Samsung Galaxy S24 Ultra",
+            "price": 124999,
+            "discountedPrice": 89999,
+            "imgUrl": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+            "label": "Limited Time Deal",
+            "offer": "28% off"
+          },
+          {
+            "id": "prod-002",
+            "name": "Apple MacBook Air M2",
+            "price": 114900,
+            "discountedPrice": 94990,
+            "imgUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+            "label": "Great Indian Festival",
+            "offer": "17% off"
+          },
+          {
+            "id": "prod-003",
+            "name": "Sony WH-1000XM5 Headphones",
+            "price": 34990,
+            "discountedPrice": 24990,
+            "imgUrl": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=400",
+            "label": "Bestseller",
+            "offer": "29% off"
+          },
+          {
+            "id": "prod-004",
+            "name": "iPad Pro 12.9 inch",
+            "price": 109900,
+            "discountedPrice": 89900,
+            "imgUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+            "offer": "18% off"
+          }
+        ]
+      }
+    }
+  ]
+}
