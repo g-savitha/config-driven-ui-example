@@ -1,8 +1,19 @@
+import styled from "styled-components"
+
+const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+const Text = styled.h1`
+  font-weight: bold;
+`
+const SubTitle = styled.h3``
 export default function Title({ data }) {
   return (
-    <div style={{ padding: '20px' }}>
-      <h2>Title</h2>
-      <p>{JSON.stringify(data)}</p>
-    </div>
+    <TitleContainer>
+      <Text>{data.text}</Text>
+      <SubTitle>{data.subtitle}</SubTitle>
+    </TitleContainer>
   )
 }
